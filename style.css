@@ -1,0 +1,77 @@
+.warning {
+    color: rgb(5, 179, 5);
+}
+body{
+    padding: 20px;
+}
+.left-sect{
+    float:left;
+    max-width: 30%;
+    min-height: 600px;
+    text-align: center;
+    padding:20px;
+    background-color: rgb(253, 254, 255);
+    border: 3px solid rgb(253, 253, 253);
+    box-shadow: 7px 7px 20px rgb(94, 92, 92);
+    border-radius: 10px 10px;
+}
+.image {
+    max-height: 100%;
+    min-width: 100%;
+}
+.image img {
+    background-attachment: fixed;
+    border-radius: 4px; 
+    max-width:100%;
+    max-height: 100%;
+}
+.top-box p{
+    margin-top: 10px;
+    padding: 4px;
+    color: rgb(175, 173, 173);
+    font-family: monospace;
+    font-size: larger;
+}
+.personal_details p {
+    margin-top: 10px;
+    padding: 4px;
+    color: rgb(175, 173, 173);
+    font-family: monospace;
+    font-size: larger;
+}
+.right-sect {
+    display:inline-block;
+    max-width: 60%;
+    min-height: 600px;
+    text-align: center;
+    margin: 10px;
+    padding:20px;
+    background-color: rgb(253, 254, 255);
+    border: 3px solid rgb(253, 253, 253);
+    box-shadow: 7px 7px 20px rgb(94, 92, 92);
+    border-radius: 10px 10px;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: left;
+    margin-top: 20px;
+    padding: 4px;
+    color: rgb(109, 106, 106);
+    font-family: monospace;
+    font-size: 20px;
+}
+.profile p{
+    margin-top: 20px;
+    padding: 4px;
+    color: rgb(175, 173, 173);
+    font-family: monospace;
+    font-size: larger;
+}
+.skills li {
+    text-align: left;
+    margin-top: 20px;
+    padding: 4px;
+    color: rgb(175, 173, 173);
+    font-family: monospace;
+    font-size: larger;
+}

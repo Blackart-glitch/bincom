@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="warning"> make sure youre in desktop mode while viewing this page</h1>
+        <div class="left-sect">
+
+            <div class="image">
+                <img class="mySlides" src="boyca.jpg" >
+                <img class="mySlides" src="boycata.jpg">
+                <img class="mySlides" src="IMG_20201229_162056_582.jpg">
+                <img class="mySlides" src="IMG_20201229_162056_583.jpg">
+                <img class="mySlides" src="IMG_20220303_134830_622.jpg">
+                <img class="mySlides" src="IMG_20220303_134959_101.jpg">
+            </div>
+
+            <div class="top-box">
+                <p class="box"> Daniel Olanrewaju Ajiboye</p>
+                <p class="box"> Computer science dept</p>
+                <p class="box"> Lagos 103101 </p>
+                <p class="box"> boyelanrewaju@gmail.com </p>
+                <p class="box">+2349067580716</p>
+            </div>
+
+            <div class="personal_details">
+                <p>
+                    <strong>Date of Birth:</strong> 2003-09-18
+                </p>
+                <p>
+                    <strong>Email:</strong> boyelanrewaju@gmail.com
+                </p>
+                <p>
+                    <strong>Home address:</strong>  16, abayomi Joseph Street, jah-micheal bus stop, along badagry
+                    expressway, Lagos, Nigeria. 
+                </p>
+                <p>
+                    <strong>Highest Level of Education:</strong> Undergraduate (computer science: THIRD YEAR) 
+                </p>
+                <p>
+                    <strong>Current class:</strong> Second class upper
+                </p>
+            </div>
+
+        </div>
+
+        <div class="right-sect">
+            <div class="profile">
+                <h1> MY PROFILE</h1>
+                <p>
+                    I am a third year undergraduate student at the Lagos state university, department of computer science. I write to seek an internship in your institution under the technical/IT department. I'm a good observer and love to solve technical problems, also hardworking and value working as a team with individuals of diverse and in depth knowledge of the relevant field. Orderliness, Timeliness and a good composure are my top qualities. I am seeking an environment where I can learn and grow in my selected field of study.
+                </p>
+            </div>
+            <div class="skills">
+                <h1> MY STRENGTHS</h1>
+                <ul>
+                    <li>Microsoft office </li>
+                    <li> Good knowledge in web development with html and CSS. Server scripting using PHP  and JavaScript. Server query languages (MySQL). </li>
+                    <li>Basic knowledge with object oriented languages like java C++, C, Python.</li>
+                    <li>Completed the Jobberman Soft Skill Training with certificate of completion.</li>
+                    <li>Attended various bootcamps and open source Trainings and intros.</li>
+                  </ul>
+
+
+            </div>
+        </div>
+
+    </body>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</html>
